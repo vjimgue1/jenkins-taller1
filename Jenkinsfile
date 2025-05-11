@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch:'master',url:'https://github.com/vjimgue1/jenkins-taller1'
+                git branch:'master',url:'https://github.com/vjimgue1/jenkins-taller1.git'
             }
         }
         stage('Install') {
